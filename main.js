@@ -1,4 +1,3 @@
-
 let textoEntrada = document.getElementById('texto-entrada');
 let textoSaida = document.getElementById('texto-saida')
 
@@ -30,7 +29,7 @@ select.addEventListener('change',()=>{
     }
 });
 
-                        //Cifra de Cesar
+//Cifra de Cesar
 
 function codificar(texto,key){
     texto = texto.split("");
@@ -75,7 +74,7 @@ function decodificar(texto,key){
     return codifiedText;
 }
 
-                            //base64
+//base64
 
 codified.addEventListener('change',()=>{
     decodBtn.classList.add('none');
